@@ -1,2 +1,2 @@
 # hybridrecommender
-This project is used to recommend movies using multiple data sources. As datasource we have used, MovieLens data, Netflix Data and YouTube trailer data. To 
+This project is used to recommend movies using multiple data sources. As datasource we have used, MovieLens data, Netflix Data and YouTube trailer data. To run the experiment we extract ratings from Netflix prize data given by 1000 users for 1000 movies. Then for the same movies we extract ratings from MovieLens dataset and also download movie trailer comments from YouTube. Then we use the comments to calculate sentiment score and use them as a rating for the corresponding movie. I have shared my datasets here and will be adding source codes as well
